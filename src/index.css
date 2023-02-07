@@ -1,13 +1,161 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.errorBg {
+  background-color: #ff0038;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.blackColor {
+  color: black;
+}
+
+.errorText {
+  color: #ff0038;
+}
+
+.whiteColor {
+  color: white;
+}
+
+.whiteBgColor {
+  background-color: white;
+}
+
+.greyBorderColor {
+  border-color: #b2bec3;
+}
+
+.primaryColor {
+  color: #1890ff;
+}
+
+.primaryBgColor {
+  background-color: #1890ff;
+}
+
+.blueGradientBg {
+  background-color: #045de9;
+  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+}
+
+.yellowGradientBg {
+  background-color: #fbb034;
+  background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+}
+
+.greenGradient {
+  background-color: #3bb78f;
+  background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+}
+
+/* WIDTH AND HEIGHT */
+.width100 {
+  width: 100%;
+}
+
+/* Margins */
+.m12 {
+  margin: 12px;
+}
+
+.mt12 {
+  margin-top: 12px;
+}
+
+.mv12 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.mv24 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.mh12 {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.mr12 {
+  margin-right: 12px;
+}
+
+.mr24 {
+  margin-right: 24px;
+}
+
+/* flexbox */
+.flex {
+  display: flex;
+}
+
+.flexRow {
+  flex-direction: row;
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+
+.flexOne {
+  flex: 1;
+}
+
+.alignItemsCenter {
+  align-items: center;
+}
+
+.alignItemsEnd {
+  align-items: flex-end;
+}
+
+.justifyContentCenter {
+  justify-content: center;
+}
+
+.justifyContentSpaceBet {
+  justify-content: space-between;
+}
+
+/* BORDERS */
+.br5 {
+  border-radius: 5px;
+}
+
+.br10 {
+  border-radius: 10px;
+}
+
+.br15 {
+  border-radius: 15px;
+}
+
+/* COLORS */
+.bgRed {
+  background: red;
+}
+
+/* FONTS */
+
+.montserratBold {
+  font-family: "Montserrat-Bold";
+}
+
+.f18 {
+  font-size: 18px;
+}
+
+.f24 {
+  font-size: 24px;
+}
+
+.f28 {
+  font-size: 28px;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+/* TEXT */
+.strikeThrough {
+  text-decoration: line-through;
 }
